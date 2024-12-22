@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="95128_key_512x512.png" />
+    <link rel="stylesheet" href="Login-page.css" />
+    <title>Mahdi-Login</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="main">
+        <form action="https://www.w3schools.com/html/" target="_blank">
+          <h1 class="login">
+            <label for="x1">login</label>
+          </h1>
+          <div class="input">
+            <input type="text" placeholder="Username" id="x1" required title="Enter username"/>
+            <br />
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              minlength="8"
+              maxlength="25"
+              title="Password should be (8-20) characters long"
+            />
+          </div>
+          <input type="checkbox" id="x2" checked />
+          <label for="x2" class="remember"> Remember22 me </label>
+          <a href="#" class="forgot"> Forgot Password? </a>
+          <div class="submit">
+            <input type="submit" value="Log In" />
+          </div>
+          <p class="dont">
+            Don't have an account? <a class="reg" href="#" title="Sign Up">Register</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
